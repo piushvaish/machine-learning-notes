@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="X[10] <= 10.525\nmse = 0.6518\nsamples = 1599\nvalue = 5.636"] ;
+1 [label="X[9] <= 0.575\nmse = 0.4315\nsamples = 983\nvalue = 5.3662"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="X[1] <= 0.7475\nmse = 0.3276\nsamples = 391\nvalue = 5.1509"] ;
+1 -> 2 ;
+3 [label="mse = 0.2888\nsamples = 328\nvalue = 5.2012"] ;
+2 -> 3 ;
+4 [label="mse = 0.448\nsamples = 63\nvalue = 4.8889"] ;
+2 -> 4 ;
+5 [label="X[1] <= 0.405\nmse = 0.4493\nsamples = 592\nvalue = 5.5084"] ;
+1 -> 5 ;
+6 [label="mse = 0.4861\nsamples = 144\nvalue = 5.8333"] ;
+5 -> 6 ;
+7 [label="mse = 0.3926\nsamples = 448\nvalue = 5.404"] ;
+5 -> 7 ;
+8 [label="X[9] <= 0.645\nmse = 0.7017\nsamples = 616\nvalue = 6.0666"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="X[1] <= 1.015\nmse = 0.7054\nsamples = 272\nvalue = 5.7279"] ;
+8 -> 9 ;
+10 [label="mse = 0.5911\nsamples = 262\nvalue = 5.7939"] ;
+9 -> 10 ;
+11 [label="mse = 0.6\nsamples = 10\nvalue = 4.0"] ;
+9 -> 11 ;
+12 [label="X[10] <= 11.55\nmse = 0.5365\nsamples = 344\nvalue = 6.3343"] ;
+8 -> 12 ;
+13 [label="mse = 0.495\nsamples = 206\nvalue = 6.1214"] ;
+12 -> 13 ;
+14 [label="mse = 0.4297\nsamples = 138\nvalue = 6.6522"] ;
+12 -> 14 ;
+}
