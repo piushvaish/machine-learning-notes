@@ -1,4 +1,4 @@
-# Project Title
+# Machine Learning Notes
 
 The repository contains notes and work that has been done to date.
 
